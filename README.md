@@ -13,7 +13,7 @@ I used if, else if, and else statements because there were atleast two options t
 I used a do while loop because the do while loop needs to go through the program at least once and exits if the player wants to quit. I used a while loop because it needs to keep asking the user to hit or stay until the user's card total >= 21 or the user stays.
 
 ##### Data Structure
-
+Was gonna implement an array for deck of cards, but I couldn't figure out how.
 
 ###### Function
 [blackjack.cpp lines 11-50] (/blackjack.cpp#L11)
@@ -26,4 +26,4 @@ I used ifstream to display my txt file that has the instructions to play the gam
 
 ###### Class
 [blackjack.h lines 1-29] (/blackjack.h#L1)
-I used a class with both private and public
+I used a class with both public members only. Didn't find the use for private members unless I implemented an array for a deck of card, but I couldn't figure out how.
