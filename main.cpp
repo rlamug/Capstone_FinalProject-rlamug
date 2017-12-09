@@ -106,10 +106,16 @@ int main () { //main program begins here
                         case 2: //Menu option 2:
                                 {
                                         string line;
-                                        ifstream file;
-                                        file.open("instructions.txt");
-                                        getline(file,line);
-
+                                        ifstream txtfile ("instructions.txt");
+                                        if (txtfile.is_open())
+                                        {
+                                                while ( getline (txtfile,line) )
+                                                {
+                                                        cout << line << "" << endl;
+                                                }
+                                                txtfile.close();
+                                        }
+                                        else cout << "Error. Cannot open instructions." << endl;
                                         break;
                                 }
 
@@ -124,5 +130,3 @@ int main () { //main program begins here
 
         return 0;
 }
-
-
