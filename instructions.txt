@@ -1,0 +1,3 @@
+How to play:
+
+The typical blackjack game with Aces having a value of 1. The goal of the game is to get a higher total value of cards than the dealer without going over 21. If the player reaches over 21, the player automatically loses. If the dealer reaches over 21, the dealer loses. Both the dealer and the player are able to increase their total value of cards by hitting. If the player is satisfied with their hand, it's the dealers turn. Press 1 in the main menu to play. Press H to hit to get another card, and press S if you're satisfied with your total card value. The game will display if the player wins or not. If you want to quit the program, press 0 to exit the program in the main menu.
